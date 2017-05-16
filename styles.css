@@ -1,0 +1,174 @@
+
+body {
+margin: 0px;
+}
+.clear {
+clear: both;}
+.floatright {
+float:right;}
+.floatleft {
+float:left;
+margin: 0px 10px 10px 0px;}
+.borderwhite {
+border: #fff 1px solid;}
+/*CUSTOM SCROLLBAR*/
+::-webkit-scrollbar {
+      width: 15px;
+} /* this targets the default scrollbar (compulsory) */
+::-webkit-scrollbar-track {
+      background-color: #b46868;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/*LISTS*/
+ul { 
+padding:0; 
+margin:0px 0px 20px 0px; 
+} 
+ul li { 
+list-style-type:none; 
+color: #fff;
+font-family: 'Monserrat', sans-serif;
+font-weight:400;
+padding: 5px 0px 5px 15px;
+background: url('images/redarrow.png') no-repeat left center;
+}
+ul li a{ 
+list-style-type:none; 
+color: #fff;
+text-decoration: none;
+}	
+ul li a:hover{ 
+list-style-type:none; 
+color: #ffffcc;
+text-decoration: none;
+}
+/* SLIDES*/
+.parallax-window {
+min-height: 1300px;
+background: transparent;}
+div.parallax-window.faculty {
+min-height: 400px;
+background: transparent;}
+div.parallax-window.slide1 p {
+padding: 20px 60px 20px 60px;}	
+.slidecopy1 {
+width: 60%;
+float:right;}
+.slidecopy1 p, .slide1 p {
+	color: #fff;
+	padding: 0px 60px 40px 0px;
+	margin: 0px;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+}
+.slidecopy2 {
+width: 60%;
+float:left;}
+.slidecopy2 p {
+	color: #fff;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+}
+.slidecopy3 {
+width: 90%;
+float:left;
+text-align: center;
+padding: 0px 10px 0px 0px;
+margin: 0px;
+clear: both;}
+
+div.facultysection {
+width: 100%;
+float:left;
+text-align: center;
+padding: 0px 0px 10px 0px;
+margin: 0px;
+clear: both;
+background-color:rgba(255,255,255,0.8);
+margin: 80px 0px 20px 0px;}
+	
+span.facultyExpert p {
+	color: #666;
+	padding: 0px 60px 60px 0px;
+	margin: 0px;
+	font-size: 1em;
+	font-family: 'Helvetica', sans-serif;
+	font-weight:300;
+	text-align:left;}
+	
+h2 {
+    color: #666;
+    font-size: 1.4em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+
+}
+h1 {
+    color: #fff;
+    font-size: 5em;
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	margin: 0px;
+	padding: 20px;
+}
+
+.facultyExpert {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;}
+	
+img.facultyHeadshot {
+
+	float: left;
+	padding: 20px;}
+	
+@media only screen and (max-width : 1300px) {
+div.parallax-window.slide1 span.slidecopy3 {
+width: 100%;
+float:left;
+text-align: center;
+padding: 0px 0px 10px 0px;
+margin: 0 auto;}
+img.hero {
+width: 100%;
+clear: both;}
+.parallax-window.slide2 {
+min-height: 1500px;
+background: transparent;}
+
+}
+@media only screen and (max-width : 768px) {
+
+.slidecopy1, .slidecopy2, .slidecopy3 {
+width: 100%;
+float:left;
+text-align: left;
+padding: 0px 10px 10px 20px;
+margin: 0px;
+clear: both;}
+}
+@media only screen and (max-width : 425px) {
+h2 {
+font-size: 1em;}
+h1 {
+font-size: 2em;}
+.slidecopy1 p, .slidecopy2 p, .slidecopy3 p {
+font-size: 1em;}
+}
